@@ -1,24 +1,24 @@
 ### job4j_articles
 
-#### Описание
+#### Description
 
-Программа генерирует статьи из слов. Слова и статьи хранятся в базе данных <a href="http://hsqldb.org/">HQLDB</a>, хранимой в виде
-файла.
+The program generates articles from words. Words and articles are stored in the database <a href="http://hsqldb.org/">HQLDB</a>, 
+stored as a file.
 
-#### Запуск через терминал
+#### Run via terminal
 
-<p>1. Собрать jar через Maven</p>
+<p>1. Build jar via Maven</p>
 
 ```bash
 mvn install
 ```
-<p>2. Запустить jar файл</p>
+<p>2. Run jar file</p>
 
 ```bash
 java -jar target/app.jar
 ```
 
-#### Запуск через IDE
+#### Run via IDE
 
-1. Перейте к папке ``src/main/java`` и файлу ``ru.job4j.articles.Application``
-2. Нажать на кнопку запуска метода ``main`` в IDE
+1. Go to folder ``src/main/java`` and file ``ru.job4j.articles.Application``
+2. Run method ``main`` in IDE
